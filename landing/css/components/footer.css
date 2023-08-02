@@ -1,0 +1,21 @@
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color:rgba(214, 198, 156, 0.3);
+  margin-top: 40px;
+}
+
+.footer a {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.fa-beat {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+

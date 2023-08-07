@@ -1,3 +1,20 @@
+.card:not(.active) .text_card {
+  display: none;
+}
+
+/* Ajoutez cette classe pour afficher le contenu de la carte */
+.card.active .text_card {
+  display: block;
+}
+
+.cards {
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
 .card img {
   width: 200px;
   height: 200px; /* Add height to make the container square */
@@ -7,10 +24,17 @@
 }
 
 .text_card {
-  padding: 20px;
+  padding: 15px;
+
+}
+
+.text_card ul {
+  list-style-type: none;
+  padding: 0px, 0px, 0px, 0px;
 }
 
 .card h4 {
+  size: 20px;
   color: #e9c46a;
 }
 .card p {
@@ -27,13 +51,6 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-}
-
-.cards {
-  border-radius: 10px 10px 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 @media(max-width: 900px) {

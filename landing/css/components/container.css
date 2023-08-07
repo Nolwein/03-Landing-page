@@ -6,6 +6,8 @@ body, .container{
 .container {
   width: 900px;
   margin: auto;
+  padding: 250px 0;
+  background-position: center;
 }
 
 @media(max-width: 900px) {
